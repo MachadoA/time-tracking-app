@@ -24,13 +24,13 @@
     color: #fff;
 }
 
-@media (min-width: 980px){
+@media (min-width: 1065px){
     .nav{
-        width: 270px;
+        width: 110px;
     }
     .navUl{
         flex-direction: column;
         padding-left: 18px;
-        height: 130px;
+        height: 100px;
     }
 }

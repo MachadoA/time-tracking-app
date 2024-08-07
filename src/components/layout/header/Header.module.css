@@ -34,15 +34,17 @@
     padding: 5px 0;
 }
 
-@media (min-width: 980px){
+@media (min-width: 1065px){
     .dataPerson{
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
-        height: 345px;
+        height: 298px;
+        width: 215px;
     }
     .header{
-        width: 270px;
+        width: 255px;
+        height: 515px;
     }
     .text h1{
         font-size: 45px;

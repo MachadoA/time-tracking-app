@@ -1,4 +1,4 @@
 .footer{
-    font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%);
-}
+    font-size: 11px; text-align: center; color: #4a4e90; padding: 15px 0;}
+
+.footer a { color: #7073b2;}

@@ -23,7 +23,7 @@ a{color:inherit; cursor: pointer;}
   --color-self-care: hsl(43, 84%, 65%);
 
   --color-very-dark-blue: hsl(226, 43%, 10%);
-  --color-dark-blue: hsl(235, 46%, 20%);
+  --color-dark-blue: #1c1f4a;
   --color-desaturated-blue: hsl(235, 45%, 61%);
   --color-pale-blue: hsl(236, 100%, 87%);
 }
@@ -37,11 +37,12 @@ body{
   margin: 20px auto;
 }
 
-@media (min-width: 980px){
+@media (min-width: 1065px){
   .container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    width: 650px;
-    min-height: 90vh;
+    display: flex;
+    width: 1110px;
+    min-height: 95vh;
+    align-items: center;
+    justify-content: center;
   }
 }

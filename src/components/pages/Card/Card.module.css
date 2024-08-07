@@ -1,23 +1,15 @@
 .sectionItem{
     margin: 30px auto;
-    border-radius: 12px;
-    /* background-color: var(--color-dark-blue); */
-    /* padding-bottom: 30px; */
-    position: relative;
+    border-radius: 20px;
 }
 
-.work,
-.play,
-.study,
-.exercise,
-.social,
-.self-care{
+.headerItem{
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
-    height: 50px;
+    height: 45px;
 }
 .work{background-color: var(--color-work);}
 .play{background-color: var(--color-play);}
@@ -73,32 +65,42 @@
     width: 360px;
 }
 
-.bodyInformation{
-    border-radius: 20px;
+.body{
     background-color: var(--color-dark-blue);
-    padding-bottom: 20px;
+    border-radius: 20px;
+    padding: 30px 0;
+}
+.body:hover{
+    background-color: #2d3274;
 }
 
-@media (min-width: 980px){
+@media (min-width: 1065px){
     .main{
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      width: 859px;
-      gap: 20px;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      width: 815px;
+      gap: 15px;
     }
     .articleInformation{
         align-items: flex-start;
         flex-direction: column;
         width: 240px;
     }
+    .body{
+        height: 140px;
+    }
     .articleInformation h2{
         font-size: 60px;
     }
     .bodyInformation{
-        height: 205px;
+        padding-bottom: 0;
     }
     .sectionItem{
         margin: 7px auto;
         cursor: pointer;
+        width: 255px;
+    }
+    .headerItem{
+        height: 40px;
     }
 }

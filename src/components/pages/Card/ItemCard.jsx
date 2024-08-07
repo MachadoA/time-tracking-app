@@ -12,15 +12,14 @@ export default function ItemCard({ item, activeLink }) {
   const { current, previous } = timeframes[activeLink];
 
   return (
-    <>
       <motion.section 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
-        className={styles.sectionItem}>
-        <div className={styles[titleClass]}>
+        className={`${styles.sectionItem} ${styles[titleClass]}`}>
+        <div className={`${styles[titleClass]} ${styles.headerItem}`}>
           <img src={`./images/icon-${title.toLowerCase().replace(/ /g, '-')}.svg`} alt={`icon of the ${title.toLowerCase()}`} />
         </div>
-        <div className={styles.bodyInformation}>
+        <div className={styles.body}>
           <article className={styles.articleTitle}>
             <h3>{title}</h3>
             <button>
@@ -35,6 +34,5 @@ export default function ItemCard({ item, activeLink }) {
           </article>
         </div>
       </motion.section>
-    </>
   );
 }
