@@ -1,0 +1,36 @@
+.nav{
+    width: 360px;
+    padding: 25px 0;
+    background-color: var(--color-dark-blue);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.navUl{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkNav{
+    color: var(--color-desaturated-blue);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.linkNav:hover{
+    color: #fff;
+}
+.linkNav.active{
+    color: #fff;
+}
+
+@media (min-width: 980px){
+    .nav{
+        width: 270px;
+    }
+    .navUl{
+        flex-direction: column;
+        padding-left: 18px;
+        height: 130px;
+    }
+}

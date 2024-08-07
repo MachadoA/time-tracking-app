@@ -1,0 +1,104 @@
+.sectionItem{
+    margin: 30px auto;
+    border-radius: 12px;
+    /* background-color: var(--color-dark-blue); */
+    /* padding-bottom: 30px; */
+    position: relative;
+}
+
+.work,
+.play,
+.study,
+.exercise,
+.social,
+.self-care{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    height: 50px;
+}
+.work{background-color: var(--color-work);}
+.play{background-color: var(--color-play);}
+.study{background-color: var(--color-study);}
+.exercise{background-color: var(--color-exercise);}
+.social{background-color: var(--color-social);}
+.self-care{background-color: var(--color-self-care);}
+
+.articleTitle,
+.articleInformation{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 0 15px;
+}
+.articleTitle h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.articleTitle button{
+    background-color: inherit;
+    color: var(--color-pale-blue);
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    gap: 3px;
+    border: none;
+}
+.circle{
+    width: 5px;
+    height: 5px; 
+    border-radius: 50%;
+    background-color: var(--color-pale-blue);
+    display: block;
+    border: none;
+}
+
+.articleInformation h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.articleInformation p{
+    color: var(--color-pale-blue);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.main{
+    margin: auto;
+    width: 360px;
+}
+
+.bodyInformation{
+    border-radius: 20px;
+    background-color: var(--color-dark-blue);
+    padding-bottom: 20px;
+}
+
+@media (min-width: 980px){
+    .main{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      width: 859px;
+      gap: 20px;
+    }
+    .articleInformation{
+        align-items: flex-start;
+        flex-direction: column;
+        width: 240px;
+    }
+    .articleInformation h2{
+        font-size: 60px;
+    }
+    .bodyInformation{
+        height: 205px;
+    }
+    .sectionItem{
+        margin: 7px auto;
+        cursor: pointer;
+    }
+}

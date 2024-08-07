@@ -1,0 +1,9 @@
+.btn{
+    cursor: pointer;
+    color: var(--color-desaturated-blue);
+}
+
+.btn:hover{
+    color: #fff;
+    border: none;
+}
