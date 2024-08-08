@@ -19,11 +19,11 @@
 .self-care{background-color: var(--color-self-care);}
 
 .workImg{background-image: url('../../../../public/images/icon-work.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
-.playImg{background-image: url('./images/icon-play.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
-.studyImg{background-image: url('./images/icon-study.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
-.exerciseImg{background-image: url('./images/icon-exercise.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
-.socialImg{background-image: url('./images/icon-social.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
-.self-careImg{background-image: url('./images/icon-self-care.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
+.playImg{background-image: url('../../../../public/images/icon-play.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
+.studyImg{background-image: url('../../../../public/images/icon-study.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
+.exerciseImg{background-image: url('../../../../public/images/icon-exercise.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
+.socialImg{background-image: url('../../../../public/images/icon-social.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
+.self-careImg{background-image: url('../../../../public/images/icon-self-care.svg'); background-repeat: no-repeat; background-position-x: 92%; background-position-y: 31%;}
 
 .articleTitle,
 .articleInformation{
