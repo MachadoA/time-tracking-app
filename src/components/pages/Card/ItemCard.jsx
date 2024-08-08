@@ -12,17 +12,17 @@ export default function ItemCard({ item, activeLink }) {
   const { current, previous } = timeframes[activeLink];
 
   return (
-      <motion.section 
+      <motion.id 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         className={`${styles.sectionItem} ${styles[titleClass]}`}>
-        <div className={`${styles[titleClass]} ${styles.headerItem}`}>
-          <img src={`./images/icon-${title.toLowerCase().replace(/ /g, '-')}.svg`} alt={`icon of the ${title.toLowerCase()}`} />
+        <div className={`${styles[titleClass]} ${styles.headerItem} ${styles[`${titleClass}Img`]}`}>
+          {/* <img src={`./images/icon-${title.toLowerCase().replace(/ /g, '-')}.svg`} alt={`icon of the ${title.toLowerCase()}`} /> */}
         </div>
         <div className={styles.body}>
           <article className={styles.articleTitle}>
             <h3>{title}</h3>
-            <button>
+            <button aria-label='toggle menu'>
               <span className={styles.circle}></span>
               <span className={styles.circle}></span>
               <span className={styles.circle}></span>
@@ -33,6 +33,6 @@ export default function ItemCard({ item, activeLink }) {
             <p>Last Week - {previous} hrs</p>
           </article>
         </div>
-      </motion.section>
+      </motion.id>
   );
 }

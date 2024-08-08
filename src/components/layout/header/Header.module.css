@@ -38,7 +38,6 @@
     .dataPerson{
         flex-direction: column;
         align-items: flex-start;
-        gap: 20px;
         height: 298px;
         width: 215px;
     }
@@ -47,6 +46,6 @@
         height: 515px;
     }
     .text h1{
-        font-size: 45px;
+        font-size: 40px;
     }
 }
