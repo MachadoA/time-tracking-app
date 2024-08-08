@@ -39,7 +39,8 @@
         flex-direction: column;
         align-items: flex-start;
         height: 298px;
-        width: 215px;
+        width: 209px;
+        padding: 30px 23px;
     }
     .header{
         width: 255px;

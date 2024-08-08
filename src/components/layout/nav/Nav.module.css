@@ -30,7 +30,7 @@
     }
     .navUl{
         flex-direction: column;
-        padding-left: 18px;
+        padding-left: 25px;
         height: 100px;
         gap: 15px;
     }
